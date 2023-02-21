@@ -13,6 +13,25 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="plants.html">My Plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#InsectNavbarContent" aria-controls="InsectNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="PlantsNavbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="plants.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
     <h1>Plants by Kyathi Jagadeeswar Pagadala</h1>
     <div class="container">
@@ -34,6 +53,197 @@
         </div>
     </div>
 <p>Since the length of the plant names considered is too high. Therefore, when we try to reduce the size of the tab the second row is getting breaked</p>
+<div class="container">
+  <img src="J01.jpg" class="img-fluid" alt="J01" width="200" height="200">
+  <img src="J02.jpg" class="img-fluid" alt="J02" width="200" height="200">
+  <img src="J03.jpg" class="img-fluid" alt="J03" width="200" height="200">
+
+</div>
+
+<div class="container">
+  <img src="J01.jpg" class="img-thumbnail" alt="J01" width="200" height="200">
+  <img src="J02.jpg" class="img-thumbnail" alt="J02" width="200" height="200">
+  <img src="J03.jpg" class="img-thumbnail" alt="J03" width="200" height="200">
+  </div>
+  <div class="container">
+  <table class="table table-success table-striped">
+    
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Letter</th>
+        <th scope="col">Plant</th>
+        <th scope="col">Mountain</th>
+        <th scope="col">Lake</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <tr class="table-secondary">
+        <th scope="row">1</th>
+        <td>P</td>
+        <td>Pandorea</td>
+        <td>Panchchuli</td>
+        <td>Paajarvi</td>
+
+      </tr>
+      <tr>
+        <tr class="table-danger">
+        <th scope="row">2</th>
+        <td>A</td>
+        <td>Abelia</td>
+        <td>Adams</td>
+        <td>Abaya</td>
+
+      </tr>
+      <tr>
+        <tr class="table-info">
+        <th scope="row">3</th>
+        <td>G</td>
+        <td>Galtonia</td>
+        <td>Galgisan</td>
+        <td>Garda</td>
+
+      </tr>
+      <tr>
+        <tr class="table-danger">
+        <th scope="row">4</th>
+        <td>A</td>
+        <td>Acacia</td>
+        <td>Anai Mudi</td>
+        <td>Amston</td>
+        
+      </tr>
+      <tr>
+        <tr class="table-info">
+        <th scope="row">5</th>
+        <td>D</td>
+        <td>Davidia</td>
+        <td>Darwin</td>
+        <td>Dargin</td>
+        </tr>
+        <tr>
+          <tr class="table-warning">
+          <th scope="row">6</th>
+          <td>A</td>
+          <td>Actaea</td>
+          <td>Aconcagua</td>
+          <td>Aberdeen</td>
+          </tr>
+
+    </tbody>
+  </table>
+</div>
+<label>BUTTONS</label>
+    <div class="btn">
+        <button type="button" class="btn btn-outline-dark">P</button>
+        <button type="button" class="btn btn-outline-dark">A</button>
+        <button type="button" class="btn btn-outline-dark">G</button>
+        <button type="button" class="btn btn-outline-dark">A</button>
+        <button type="button" class="btn btn-outline-dark">D</button>
+        <button type="button" class="btn btn-outline-dark">A</button>
+    </div>
+    <br>
+    <label>Button Groups</label>
+    <div class="container btn-toolbar">
+<div class="btn-group" role="group" aria-label="Img Plants">
+  <button type="button" class="btn btn-success">P</button>
+  <button type="button" class="btn btn-success">A</button>
+  <button type="button" class="btn btn-success">G</button>
+</div>
+<div class="btn-group" role="group" aria-label="Letters Plants">
+  <button type="button" class="btn btn-warning">A</button>
+  <button type="button" class="btn btn-warning">D</button>
+</div>
+<div class="btn-group" role="group" aria-label="Remaining Plants">
+  <button type="button" class="btn btn-danger">A</button>
+</div>
+</div>
+<div class="container">
+  <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" type="button">Menu</button>
+      <div class="dropdown-menu">
+          <a href="basic.html" class="dropdown-item ">Basic</a>
+          <a href="advanced.html" class="dropdown-item">Advanced</a>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <form action="">
+      <div class="form-group">
+          <label for="PlantEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="PlantEmail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+          <label for="PlantInput" class="form-label">Plant Name</label>
+          <input type="text" class="form-control" id="PlantInput" placeholder="Enter Your Plant">
+      </div>
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="PlantCheck">
+          <label class="form-check-label" for="PlantCheck">Sign up for newsletter?</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+</div>
+
+
+<div class="container">
+  <div class="row">
+      <div class="col-md">
+          <div class="card" style="width: 19rem;">
+              <img src="J01.jpg" class="card-img-top" alt="J01">
+              <div class="card-body">
+                  <h5 class="card-title">Pandorea</h5>
+                  <p class="card-text">
+                    Pandorea is a genus of nine species of flowering plants in the family Bignoniaceae and is native to Australia,
+                    Malesia, New Guinea and New Caledonia. 
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Pandorea" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 19rem;">
+              <img src="J02.jpg" class="card-img-top" alt="J02">
+              <div class="card-body">
+                  <h5 class="card-title">Abelia</h5>
+                  <p class="card-text">
+                    Abelia is a previously recognized genus that contained about 30 species and hybrids, placed in the honeysuckle family, 
+                    Caprifoliaceae. Molecular phylogenetic studies showed that the genus was not monophyletic, and in 2013,
+                     Maarten Christenhusz proposed the merger of Abelia (excluding section Zabelia) into Linnaea, along with some other genera.
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Abelia" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 19rem;">
+              <img src="J03.jpg" class="card-img-top" alt="J03">
+              <div class="card-body">
+                  <h5 class="card-title">Galtonia</h5>
+                  <p class="card-text">
+                    Galtonia is a genus of plants in the family Asparagaceae, subfamily Scilloideae. 
+                    Native to Southern Africa, the genus is named after Sir Francis Galton. 
+                    According to some authorities it has been subsumed into Ornithogalum as a subgenus,
+                     while others prefer to keep it as a separate genus
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Galtonia" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
 
 </body>
 </html>
